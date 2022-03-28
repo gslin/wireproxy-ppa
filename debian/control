@@ -1,0 +1,14 @@
+Source: wireproxy
+Section: net
+Priority: optional
+Maintainer: Gea-Suan Lin (PPA) <gslin@gslin.org>
+Build-Depends: debhelper, golang
+Standards-Version: 3.9.7
+Homepage: https://github.com/octeep/wireproxy
+Vcs-Git: https://github.com/octeep/wireproxy.git
+Vcs-Browser: https://github.com/octeep/wireproxy
+
+Package: wireproxy
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Wireguard client that exposes itself as a socks5 proxy.
