@@ -1,3 +1,9 @@
+wireproxy (0.0.20220329.2.ca9e5dd-unstable~ppa1) unstable; urgency=medium
+
+  * Packaging 0.0.20220329.2.ca9e5dd.
+
+ -- Gea-Suan Lin (PPA) <gslin@gslin.org>  Tue, 29 Mar 2022 02:47:22 +0800
+
 wireproxy (0.0.20220329.1.ca9e5dd-unstable~ppa1) unstable; urgency=medium
 
   * Packaging 0.0.20220329.1.ca9e5dd.

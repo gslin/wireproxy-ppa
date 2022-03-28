@@ -7,7 +7,7 @@ export GOCACHE=/tmp/.cache/go-build
 	dh $@ 
 
 override_dh_auto_build:
-	go build
+	go build -mod vendor
 
 override_dh_auto_build-arch:
-	go build
+	go build -mod vendor
