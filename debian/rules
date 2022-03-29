@@ -7,7 +7,7 @@ export GOCACHE=/tmp/.cache/go-build
 	dh $@ 
 
 override_dh_auto_build:
-	go build -mod vendor
+	go build -mod vendor ./cmd/wireproxy
 
 override_dh_auto_build-arch:
-	go build -mod vendor
+	go build -mod vendor ./cmd/wireproxy
